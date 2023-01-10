@@ -17,6 +17,7 @@ public class StatisticsServiceTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void findMaxAnotherArray() {
         StatisticsService service = new StatisticsService();
